@@ -483,7 +483,7 @@ Provide a richer experience when sharing code snippets on your site. After Dark 
 
 To set-up syntax highlighting for your After Dark site:
 
-- Follow Hugo's [Pygments installation](https://gohugo.io/extras/highlighting/#pygments) instructions.
+- Follow Hugo's [Pygments installation](https://gohugo.io/content-management/syntax-highlighting/#highlight-with-pygments-classic) instructions.
 - Open the `themes/after-dark` folder and run `npm i` (assumes NPM installed).
 - Then open `./node_modules/atom-one-pygments` and `npm i`.
 - Once dependencies are installed, issue `npm run build` within the module to generate the stylesheets to the module's `./dist` directory.
